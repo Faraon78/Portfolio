@@ -1,0 +1,23 @@
+:root {
+    --main-bglight-color: rgba(173, 250, 233, 0.513);
+    --main-fontlight-color: rgb(26, 3, 51);
+    --main-button-color: rgb(141, 233, 233);
+  }
+
+.light .header, .light .footer{
+    background-color: var(--main-bglight-color);
+    color: var(--main-fontlight-color);
+}
+.light{
+  background-image: url('/components/image/favImage.png');
+  background-size: cover;
+  height:100hv;
+}
+.light button{ 
+  background: var(--main-button-color);
+  border-color: rgb(102, 168, 168);
+}
+.light .noteRow:hover{
+  background-color: var(--main-bglight-color);
+  
+}

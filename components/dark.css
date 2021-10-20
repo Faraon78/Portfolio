@@ -1,0 +1,27 @@
+:root {
+    --main-bgdark-color: rgba(66, 59, 80, 0.404);
+    --main-fontdark-color: rgb(183, 245, 245);
+    --main-buttondark-color: rgb(51, 50, 75);
+  }
+
+.dark .header, .dark .footer{
+    background-color: var(--main-bgdark-color);
+    color: var(--main-fontdark-color);
+}
+.dark{
+  background-image: url('/components/image/bgd2.png');
+  background-size: cover;
+  height:100hv;
+}
+.dark .wrap-main{
+  color: rgb(209, 230, 248);
+}
+.dark button{ 
+  background: var(--main-buttondark-color);
+  border-color: rgb(50, 71, 71);
+  color: rgb(209, 230, 248);
+}
+.dark .noteRow:hover{
+  background-color: var(--main-buttondark-color);
+  
+}
