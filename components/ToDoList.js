@@ -8,7 +8,7 @@ import './index.css'
 import './light.css'
 import './dark.css'
 
-class ToDoList extends React.Component {
+class TodoList extends React.Component {
       
     state = {
       selectedLang:1,      //выбранный язык 1-английский, 2-русский
@@ -65,4 +65,4 @@ class ToDoList extends React.Component {
     }
   }
   
-  export default ToDoList
+  export default TodoList
